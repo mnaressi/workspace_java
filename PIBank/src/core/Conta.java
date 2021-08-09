@@ -1,11 +1,20 @@
 package core;
 
 public class Conta {
-	protected String nomeTitular;
-	protected String cpf;
-	protected int numeroConta;
-	protected float saldo;
+	private String nomeTitular;
+	private String cpf;
+	private int numeroConta;
+	private float saldo;
 	
+		
+	public Conta(String nomeTitular, String cpf, int numeroConta, float saldo) {
+		super();
+		this.nomeTitular = nomeTitular;
+		this.cpf = cpf;
+		this.numeroConta = numeroConta;
+		this.saldo = saldo;
+	}
+
 	public boolean debitar(float valor){
 		if (this.saldo < valor) {
 			System.out.println("\nSaldo Insuficiente");
