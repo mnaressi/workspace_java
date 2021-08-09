@@ -7,6 +7,14 @@ public class FolhaPgto {
 		int opcao;
 		double reajuste;
 		
+		//Utilizando o metodo construtor
+		
+		Funcionario f1, f2, f3;
+		f1=new Funcionario(123, "Michel", "michel@java.com", 2000);
+		f2=new Funcionario(456, "Isidro", "isidro@java.com", 3000);
+		f3=new Funcionario(789, "Ze", "ze@java.com", 4000);
+		
+		/*
 		Funcionario f1 = new Funcionario();
 		f1.setNome("Michel");
 		f1.setNumeroFuncional(123);
@@ -24,6 +32,8 @@ public class FolhaPgto {
 		f3.setNumeroFuncional(789);
 		f3.setEmail("ze@java.com");
 		f3.setSalario(1000);
+		
+		*/
 		
 		do{
 			System.out.println("\nDigite a Opcao Desejada:\n1 - Exibir\n2 - Reajustar Salario\n3 - Sair");

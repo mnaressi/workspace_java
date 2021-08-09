@@ -1,19 +1,8 @@
-public class Funcionario {
-	
+public class Funcionariov2 {
 	private String nome;
 	private int numeroFuncional;
 	private String email;
 	private double salario;
-	
-	//metodo contrutor
-	
-	public Funcionario(int numeroFuncional, String nome, String email, double salario) {
-		this.numeroFuncional = numeroFuncional;
-		this.nome = nome;
-		this.email = email;
-		this.salario = salario;
-		
-	}
 	
 	public String getNome() {
 		return nome;
