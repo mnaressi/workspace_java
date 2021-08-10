@@ -1,13 +1,13 @@
 package core;
 
-public class Conta {
-	private String nomeTitular;
-	private String cpf;
-	private int numeroConta;
-	private float saldo;
+public class Conta{
+	protected String nomeTitular;
+	protected String cpf;
+	protected int numeroConta;
+	protected double saldo;
 	
 		
-	public Conta(String nomeTitular, String cpf, int numeroConta, float saldo) {
+	public Conta(String nomeTitular, String cpf, int numeroConta, double saldo) {
 		super();
 		this.nomeTitular = nomeTitular;
 		this.cpf = cpf;
@@ -54,7 +54,7 @@ public class Conta {
 		this.numeroConta = numeroConta;
 	}
 
-	public float getSaldo() {
+	public double getSaldo() {
 		return saldo;
 	}
 
